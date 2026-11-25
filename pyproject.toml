@@ -1,0 +1,14 @@
+[project]
+name = "secure-communication-suite"
+version = "0.1.0"
+description = "CSE461 Cryptography and Security project - Secure Communication Suite"
+requires-python = ">=3.10"
+dependencies = ["pycryptodome>=3.19"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-ra"

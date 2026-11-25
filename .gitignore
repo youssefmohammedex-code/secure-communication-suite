@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# runtime data: user DB, keystore, vault — never commit keys or password hashes
+data/
+*.pem
+*.db
+
+benchmarks/results/
+
+# Office temp files
+~$*
